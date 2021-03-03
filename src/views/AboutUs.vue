@@ -46,59 +46,37 @@ export default {
   name: "Project",
   data: () => ({
     desc1:
-      "DevlUp Labs is a thriving student-led open source community at IIT Jodhpur.We believe in sharing of ideas and upskilling by collaboration through meaningful projects. Our focus is to deliver results with the highest of standards.We aim to build an open source community through proper guidance and by encouraging self learning.",
-    desc2:
-      "We encourage development of technology and Innovation through various sessions, workshops and webinars.",
+      "Entrepreneurship-Cell IIT Jodhpur is a student body that focuses on developing and promoting entrepreneurial eco-system and start-up skills in creative and potential minds. It focuses on various dimensions of the corporate world that revolves around an entrepreneur. Being a student-run body, we educate people about different aspects of a business, guide and promote entrepreneurial ideas and provide resources to help them establish, nurture and run their own startup.",
+
     item: 1,
     items: [
       {
         direction: "right",
-        heading: "Learning Driven Endeavour",
+        heading: "Corporate, Startups and Marketing",
         src: "../data/images/AboutusPoints/point1new.png",
         subheading:
           "Everything we do is to upskill ourselves! We aim to learn and grow as a team!"
       },
       {
         direction: "left",
-        heading: "Open Source community",
+        heading: "Events",
         src: "../data/images/AboutusPoints/point2new.png",
         subheading:
           "Inspire and guide the coming generation to build a functioning and interactive open-source community."
       },
       {
         direction: "right",
-        heading: "Projects that matter",
-        src: "../data/images/AboutusPoints/point3new.png",
+        heading: "Finance and Management",
+        src: "../data/images/AboutusPoints/finance.jpeg",
         subheading:
           "We at devlup labs are committed to products and projects that matter, projects that serve a real purpose for the community."
       },
       {
         direction: "left",
-        heading: "Unparalleled Standards",
-        src: "../data/images/AboutusPoints/point4new.png",
+        heading: "Media and Publicity",
+        src: "../data/images/AboutusPoints/media.jpg",
         subheading:
           "We insist on the highest of standards, from functionality to code to coffee."
-      },
-      {
-        direction: "right",
-        heading: "Delivering Results",
-        src: "../data/images/AboutusPoints/point5new.png",
-        subheading:
-          "Nothing is more important than delivering amazing results to the end-user."
-      },
-      {
-        direction: "left",
-        heading: "Don’t Reinvent the wheel",
-        src: "../data/images/AboutusPoints/point6new.png",
-        subheading:
-          "We believe that we can deliver better results and enrich the learning experience by leveraging existing solutions and building on top of them."
-      },
-      {
-        direction: "right",
-        heading: "Self Learning",
-        src: "../data/images/AboutusPoints/point7new.png",
-        subheading:
-          "Self Learning sits at the heart of devlup labs, we believe in proper utilization of resources and peer guidance to propel self learning."
       }
     ]
   })
