@@ -48,15 +48,15 @@ v-container(fluid='' style='margin: 0px; padding: 0px; width: 100%;')
        div.mt-5.Form()
             iframe(name='hiddenframe' height='0' width='0' border='0' style='display: none;' onload="if(submitted){location.reload()}")
             v-form(id="user_info_submit" name="form"
-                  action="https://docs.google.com/forms/d/e/1FAIpQLScF25Ruct7LDlDyG8GBqb5pybTFE_DnfqJOjxzBY38k5-4fLQ/formResponse"
+                  action="https://docs.google.com/forms/d/e/1FAIpQLSeJR4P9OZalE-hUt570wQWQ6GoIY2u67dDriMkmixezZukcGA/formResponse"
                   method="POST" target="hiddenframe"
                   v-model="validform"
                   v-ref='form' onsubmit="submitted=true;" )
               h1.py-3.font-weight-bold(style='color:#1b65c4;') Contact Us
-                v-text-field(label="Email: "  prepend-icon='mdi-email' id="E-mail"   name="entry.251653149" color='#1b65c4' type="email" v-model="emailaddress" :rules="emailrules")
-                v-text-field(label="Full name: " prepend-icon='mdi-account' id="Name" name="entry.1947078806" color='#1b65c4' type="text" counter=20 v-model="Name" :rules="namerules")
-                v-text-field(label="Contact Number: "  prepend-icon=" mdi-dialpad"  color='#1b65c4' id="Mobile" name="entry.1279789724" type="phone"   counter=true v-model="mobileno" :rules="numberrules")
-                v-text-field(label="Comments and queries" color='#1b65c4' name="entry.1361975626" type="Comments" id="suggestion" counter=true)
+                v-text-field(label="Email: "  prepend-icon='mdi-email' id="E-mail"   name="entry.652360981" color='#1b65c4' type="email" v-model="emailaddress" :rules="emailrules")
+                v-text-field(label="Full name: " prepend-icon='mdi-account' id="Name" name="entry.1315162922" color='#1b65c4' type="text" counter=20 v-model="Name" :rules="namerules")
+                v-text-field(label="Contact Number: "  prepend-icon=" mdi-dialpad"  color='#1b65c4' id="Mobile" name="entry.437709034" type="phone"   counter=true v-model="mobileno" :rules="numberrules")
+                v-text-field(label="Comments and queries" color='#1b65c4' name="entry.409597699" type="Comments" id="suggestion" counter=true)
                 v-btn.my-3(color='#1b65c4' :disabled="!validform" type="submit").white--text submit
 
 </template>
